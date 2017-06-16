@@ -16,28 +16,18 @@ namespace task3
             arr = data.Split(' ');
             
 
-            Console.WriteLine(arr[4] + " ");
-            Console.WriteLine(arr[3] + " ");
-            Console.WriteLine(arr[2] + " ");
-            Console.WriteLine(arr[1] + " ");
-            Console.WriteLine(arr[0] + " ");
+            
 
             Console.WriteLine("------------");
-            int i;
+
+            int i = arr.Length;
             i = i - 1;
 
-            Console.WriteLine(arr[i] + " ");
-            i = i - 1;
-            Console.WriteLine(arr[i] + " ");
-            i = i - 1;
-            Console.WriteLine(arr[i] + " ");
-            i = i - 1;
-            Console.WriteLine(arr[i] + " ");
-            i = i - 1;
-            Console.WriteLine(arr[i] + " ");
-            i = i - 1;
-
-           
+            while (i >= 0)
+            {
+                Console.WriteLine(arr[i] + " ");
+                i = i - 1;
+            }
         }
     }
 }
