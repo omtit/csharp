@@ -12,7 +12,7 @@ namespace task3
         {
             String msg;
             msg = Console.ReadLine();
-            Console.WriteLine(msg+ " нас не остановят!");
+            Console.WriteLine("{0} нас не остановят!", msg);
         }
     }
 }
